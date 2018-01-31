@@ -1,18 +1,25 @@
 /* body */
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(234, 246, 225);
+    margin: 0%
 }
 /* .cafe */
 h1 {
     font-size: 35px;
     color: lightslategray;
-    text-align: justify;
+    text-align: center;
  }
 
+/* それぞれの見出しに罫線をつけた */
  h2 {
      border-left-style: solid;
      border-left-width: 6px;
      border-left-color: darkcyan;
+     padding-left: 8px;
+ }
+
+ .performer {
+     margin: 0 0 24px;
  }
 
  /* 世界のファックス */
@@ -30,4 +37,14 @@ h1 {
  .copyright {
     border-top: solid 3px #000000;
     text-align: center;
+ }
+
+ /* article */
+ article {
+     padding: 32px 16px;
+ } 
+
+ /* section */
+ section {
+     padding: 10px 20px;
  }
