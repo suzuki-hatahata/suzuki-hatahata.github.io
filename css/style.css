@@ -1,14 +1,38 @@
 /* body */
 body {
     background-color: rgb(234, 246, 225);
-    margin: 0%
+    margin: 0 0 0px;
+
 }
 /* .cafe */
+
+header {
+    background-color: rgb(143, 160, 177);
+}
+
 h1 {
     font-size: 35px;
-    color: lightslategray;
+    color: white;
     text-align: center;
  }
+
+/* ドットカフェへようこそ、に背景色をつけた。*/
+.intoroduction,.intoroduction2 {
+    background-color: #a1c3c5;
+    padding: 8px;
+}
+
+/* ナビゲーションの色と装飾 */
+.navigation ul li {
+    list-style-type: lower-roman;
+}
+.navigation ul li a {
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #dc5f45;
+    text-decoration: underline;
+}
 
 /* それぞれの見出しに罫線をつけた */
  h2 {
@@ -22,6 +46,18 @@ h1 {
      margin: 0 0 24px;
  }
 
+/*セッション日程*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: solid 1px #999999;
+    padding: 16px;
+}
+th {
+    background-color: #b2d6b5;
+}
  /* 世界のファックス */
  #fucks {
      background-color: rgb(30, 23, 105);
